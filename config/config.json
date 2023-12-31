@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "Bigspring Light Nextjs",
+    "title": "Gym App",
     "base_url": "/",
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
@@ -29,7 +29,7 @@
   },
   "metadata": {
     "meta_author": "GymApp",
-    "meta_image": "",
-    "meta_description": "GymApp is the best tracking tool for your strength log"
+    "meta_image": "/images/logo.png",
+    "meta_description": "Gym App is the best tracking tool for your strength log"
   }
 }
