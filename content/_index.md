@@ -8,27 +8,27 @@ banner:
     link: "/contact"
 
 # feature
-# feature: 
-#   title: Features
-#   features:
-#   - name: "Clean Code"
-#     icon: "/images/code.svg"
-#     content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-#   - name: "Object Oriented"
-#     icon: "/images/oop.svg"
-#     content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-#   - name: "24h Service"
-#     icon: "/images/user-clock.svg"
-#     content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-#   - name: "Value for Money"
-#     icon: "/images/love.svg"
-#     content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-#   - name: "Faster Response"
-#     icon: "/images/speedometer.svg"
-#     content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-#   - name: "Cloud Support"
-#     icon: "/images/cloud.svg"
-#     content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+feature: 
+  title: Features
+  features:
+  - name: "Clean Code"
+    icon: "/images/code.svg"
+    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+  - name: "Object Oriented"
+    icon: "/images/oop.svg"
+    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+  - name: "24h Service"
+    icon: "/images/user-clock.svg"
+    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+  - name: "Value for Money"
+    icon: "/images/love.svg"
+    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+  - name: "Faster Response"
+    icon: "/images/speedometer.svg"
+    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+  - name: "Cloud Support"
+    icon: "/images/cloud.svg"
+    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
 
 # services
 services:

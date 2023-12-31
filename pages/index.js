@@ -143,32 +143,34 @@ const Home = ({ frontmatter }) => {
         />
       </section> */}
 
-      <div className={"container text-center"}>
-        <h2>Customer Reviews</h2>
-      </div>
-      <section className={"flex items-center justify-center my-8 container"}>
-        <Swiper
-          modules={[Autoplay]}
-          // pagination={
-          //   { clickable: true }
-          // }
-          autoplay={{
-            delay: 5000,
-            disableOnInteraction: false,
-          }}
-          init={false}
-        >
-          {
-            reviews.map((review, i) => <SwiperSlide key={i}>
-              <Reivew user={review.user} title={review.title} comment={review.comment} />
-            </SwiperSlide>)
-          }
-        </Swiper>
+      <section className={"bg-theme-light py-12"}>
+        <div className={"container text-center"}>
+          <h2>Customer Reviews</h2>
+        </div>
+        <div className={"flex items-center justify-center my-8 container "}>
+          <Swiper
+            modules={[Autoplay]}
+            // pagination={
+            //   { clickable: true }
+            // }
+            autoplay={{
+              delay: 5000,
+              disableOnInteraction: false,
+            }}
+            init={false}
+          >
+            {
+              reviews.map((review, i) => <SwiperSlide key={i}>
+                <Reivew user={review.user} title={review.title} comment={review.comment} />
+              </SwiperSlide>)
+            }
+          </Swiper>
 
 
+        </div>
       </section>
 
-      <section className={"container text-center pb-8"}>
+      <section className={"container text-center py-12 "}>
         <h2>Start to use GYM</h2>
         <DownloadButton />
       </section>
