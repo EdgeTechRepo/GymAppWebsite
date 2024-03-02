@@ -38,7 +38,7 @@ services:
     button:
       enable: true
       label: Check it out
-      link: /contact
+      link: https://apps.apple.com/us/app/strength-log-by-gym/id1661838502
 
   - title: "Quickly Build Workouts"
     content: "Efficiently create and customize your workouts with GYM App. Create personalized routines tailored to your fitness goals with ease."
@@ -46,7 +46,7 @@ services:
     button:
       enable: true
       label: Check it out
-      link: /contact
+      link: https://apps.apple.com/us/app/strength-log-by-gym/id1661838502
   
   - title: "Chart Your Progress"
     content: "Easily see your historical data and make decisions on how to make continual progress 💪"
@@ -54,7 +54,7 @@ services:
     button:
       enable: true
       label: Check it out
-      link: /contact
+      link: https://apps.apple.com/us/app/strength-log-by-gym/id1661838502
 
 # workflow
 workflow: 
