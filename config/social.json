@@ -1,9 +1,8 @@
 {
-  "facebook": "https://facebook.com/",
-  "twitter": "https://twitter.com/",
-  "instagram": "",
+  "facebook": "",
+  "instagram": "https://www.instagram.com/getyourmetrics",
   "youtube": "",
-  "linkedin": "https://linkedin.com/",
+  "linkedin": "",
   "github": "",
   "gitlab": "",
   "discord": "",
@@ -27,6 +26,5 @@
   "email": "",
   "phone": "",
   "address": "",
-  "skype": "https://skype.com/",
   "website": ""
 }
