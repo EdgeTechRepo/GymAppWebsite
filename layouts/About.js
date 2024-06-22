@@ -10,12 +10,12 @@ const About = ({ data }) => {
 
   const youtubeVideo = <iframe style={{ aspectRatio: 1.72 }} className="w-full sm:mx-auto sm:w-[60%]" src={info.video} title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
   const gotoCourseButton = <div>
-    <button type="submit" className="btn btn-primary !mt-8">
-      <div className="w-auto space-y-1 ">
+    <a type="submit" target="_blank" href={info.course.url} className="btn btn-primary !mt-8">
+      <div className="w-auto space-y-1 text-white">
         <div>{info.course.text}</div>
         <div className="text-xs font-normal text-slate-100">{info.course.subtext}</div>
       </div>
-    </button>
+    </a>
   </div>
   const downloadAppButton = <DownloadButton />
 
