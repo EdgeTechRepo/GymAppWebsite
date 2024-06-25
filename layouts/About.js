@@ -20,7 +20,7 @@ const About = ({ data }) => {
   const downloadAppButton = <DownloadButton />
 
   const connectMe = <div className="section">
-    <h3>Connect Me</h3>
+    <h3>Connect With Me</h3>
     {info.connectMe.map(line => {
       return markdownify(line, "p", "mt-4")
     })}
